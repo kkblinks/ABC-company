@@ -33,10 +33,11 @@
                     <a class="navbar-brand" href="index.html">ABC</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a class="page-scroll" href="#page-top">Home</a></li>
-                        <li><a class="page-scroll" href="#features">Contact Us </a></li>
-                        <li><a class="page-scroll" href="#team">Admin </a></li>                       
+                <ul class="nav navbar-nav navbar-right">
+                        <li><a class="page-scroll" href="#">Home</a></li>
+                        <li><a class="page-scroll" href="#">Blog</a></li>
+                        <li><a class="page-scroll" href="#">Contact Us </a></li>
+                        <li><a class="page-scroll" href="#">Admin </a></li>                       
                     </ul>
                 </div>
             </div>
@@ -97,38 +98,38 @@
 <div class="row ">
 <br><br>
 <h1 class="text-center text-bold"><b>Contact US</b></h1>
-                <div class="col-lg-12">
-                    <div class="ibox float-e-margins">
+                <div class="col-lg-12 container">
+                    <div class="ibox float-e-margins container">
                        
-                        <div class="ibox-content">
+                        <div class="ibox-content container">
                             <form method="get" class="form-horizontal">
                                 <div class="form-group"><label class="col-sm-2 control-label">Name</label>
 
-                                    <div class="col-sm-10"><input type="text" class="form-control"></div>
+                                    <div class="col-sm-8"><input type="text" class="form-control"></div>
                                 </div>
                                 <div class="hr-line-dashed"></div>
                                 <div class="form-group"><label class="col-sm-2 control-label">Email</label>
 
-                                <div class="col-sm-10"><input type="text" class="form-control"></div>
+                                <div class="col-sm-8"><input type="text" class="form-control"></div>
                                 </div>
                                 <div class="hr-line-dashed"></div>
                                 <div class="form-group"><label class="col-sm-2 control-label">Mobile Number</label>
 
-                                <div class="col-sm-10"><input type="text" class="form-control"></div>
+                                <div class="col-sm-8"><input type="text" class="form-control"></div>
                                 </div>
                                 <div class="hr-line-dashed"></div>
                                 <div class="form-group"><label class="col-sm-2 control-label">Address</label>
 
-                                <div class="col-sm-10"><input type="text" class="form-control"></div>
+                                <div class="col-sm-8"><textarea class="form-control"></textarea></div>
                                 </div>
                                 <div class="form-group"><label class="col-sm-2 control-label">Message</label>
 
-                                <div class="col-sm-10"><input type="text" class="form-control"></div>
+                                <div class="col-sm-8"><textarea class="form-control"></textarea></div>
                                 </div>
 
                                 <div class="hr-line-dashed"></div>
                                 <div class="form-group">
-                                    <div class="col-sm-4 col-sm-offset-6">
+                                    <div class="col-sm-4 col-sm-offset-4">
                                         <button class="btn btn-white" type="submit">Cancel</button>
                                         <button class="btn btn-primary" type="submit">Save changes</button>
                                     </div>

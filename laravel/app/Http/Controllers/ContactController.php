@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Blog;
+use App\Contact;
 use Illuminate\Http\Request;
 
-class BlogController extends Controller
+class ContactController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,9 +14,7 @@ class BlogController extends Controller
      */
     public function index()
     {
-        $blogs = Blog::all();
-        $data['blogs'] = $blogs;
-        return view('blog.index', $blogs);
+        //
     }
 
     /**
@@ -27,7 +25,6 @@ class BlogController extends Controller
     public function create()
     {
         //
-        return view('blog.create');
     }
 
     /**
@@ -44,35 +41,33 @@ class BlogController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Blog  $blog
+     * @param  \App\Contact  $contact
      * @return \Illuminate\Http\Response
      */
-    public function show(Blog $blog)
+    public function show(Contact $contact)
     {
         //
-        return view('blog.show');
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Blog  $blog
+     * @param  \App\Contact  $contact
      * @return \Illuminate\Http\Response
      */
-    public function edit(Blog $blog)
+    public function edit(Contact $contact)
     {
         //
-        return view('blog.edit');
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Blog  $blog
+     * @param  \App\Contact  $contact
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Blog $blog)
+    public function update(Request $request, Contact $contact)
     {
         //
     }
@@ -80,10 +75,10 @@ class BlogController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Blog  $blog
+     * @param  \App\Contact  $contact
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Blog $blog)
+    public function destroy(Contact $contact)
     {
         //
     }

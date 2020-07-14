@@ -34,9 +34,10 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class="page-scroll" href="#page-top">Home</a></li>
-                        <li><a class="page-scroll" href="#features">Contact Us </a></li>
-                        <li><a class="page-scroll" href="#team">Admin </a></li>                       
+                        <li><a class="page-scroll" href="/">Home</a></li>
+                        <li><a class="page-scroll" href="/blog">Blog</a></li>
+                        <li><a class="page-scroll" href="/contact">Contact Us </a></li>
+                        <li><a class="page-scroll" href="/admin">Admin </a></li>                       
                     </ul>
                 </div>
             </div>
